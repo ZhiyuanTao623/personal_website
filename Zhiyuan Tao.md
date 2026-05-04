@@ -1,6 +1,6 @@
 # Zhiyuan Tao
 
-Columbus, OH | taozhiyuanair@gmail.com | (+1) 614-772-0489
+Columbus, OH | taozhiyuanair@gmail.com 
 
 ## Education
 
