@@ -1,6 +1,6 @@
 # Zhiyuan Tao
 
-Columbus, OH | tao.623@buckeyemail.osu.edu | (+1) 614-772-0489
+Columbus, OH | taozhiyuanair@gmail.com | (+1) 614-772-0489
 
 ## Education
 
@@ -24,7 +24,7 @@ Columbus, OH | tao.623@buckeyemail.osu.edu | (+1) 614-772-0489
  \- Contributing to data cleaning(200M data)
  \- Link: https://imageomics.github.io/bioclip-2/
 
-**Hierarchical Entailment Loss for CLIP (2025)**
+**Hierarchical Entailment Loss for CLIP**
  \- Investigating entailment-aware losses for hierarchical vision-language learning.
  \- Working toward an implementation for fine-grained classification under taxonomy constraints
 
