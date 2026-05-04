@@ -34,6 +34,6 @@ Columbus, OH | taozhiyuanair@gmail.com | (+1) 614-772-0489
  **NeurIPS 2025 Workshop on Imageomics**, Oct 2025.
  – Contributed to **data cleaning, curation, and experimental insights** for large-scale beetle image datasets.
 
-Openreview Link: https://openreview.net/forum?id=sBUl8YC5Bg
+Link: https://arxiv.org/pdf/2511.00255
 
  
