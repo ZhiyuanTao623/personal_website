@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zhiyuan Tao</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <span class="nav-name">Zhiyuan Tao</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Zhiyuan Tao</h1>
+        <p class="hero-title">M.S. Student in ECE · The Ohio State University</p>
+        <p class="hero-desc">
+          Researching hierarchical hyperbolic vision-language models.
+          Interested in large-scale dataset pipelines, distributed training, and fine-grained visual understanding.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:tao.623@buckeyemail.osu.edu" class="btn">Email</a>
+          <a href="https://openreview.net/forum?id=sBUl8YC5Bg" class="btn btn-outline" target="_blank">OpenReview</a>
+        </div>
+        <p class="hero-contact">Columbus, OH &nbsp;|&nbsp; tao.623@buckeyemail.osu.edu &nbsp;|&nbsp; (+1) 614-772-0489</p>
+      </div>
+      <div class="hero-avatar">ZT</div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3>M.S. in Electrical and Computer Engineering</h3>
+              <p class="institution">The Ohio State University, Columbus, OH</p>
+            </div>
+            <span class="date-badge">Sep 2024 – Present</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3>B.S. in Information Security</h3>
+              <p class="institution">Nanjing University of Posts and Telecommunications, China</p>
+            </div>
+            <span class="date-badge">Sep 2020 – Jun 2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2 class="section-title">Research Experience</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3>Graduate Research Assistant</h3>
+              <p class="institution">The Ohio State University</p>
+            </div>
+            <span class="date-badge">May 2025 – Present</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Conducting research on a hierarchical hyperbolic vision-language model.</li>
+            <li>Built large-scale dataset pipelines on OSC/PSC clusters for iNat21 and LILA datasets (200M+ samples).</li>
+            <li>Deployed distributed training with PyTorch DDP, Slurm, and H100 GPUs; profiling using Nsight Systems.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+      <div class="card-list">
+        <div class="card pub-card">
+          <div class="pub-venue">NeurIPS 2025 Workshop on Imageomics</div>
+          <h3 class="pub-title">"BeetleFlow: An Integrative Deep Learning Pipeline for Beetle Image Processing."</h3>
+          <p class="pub-desc">Contributed to data cleaning, curation, and experimental insights for large-scale beetle image datasets.</p>
+          <a href="https://openreview.net/forum?id=sBUl8YC5Bg" class="pub-link" target="_blank">View on OpenReview →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-header">
+            <h3>Hierarchical Entailment Loss for CLIP</h3>
+            <span class="date-badge">2025</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Investigating entailment-aware losses for hierarchical vision-language learning.</li>
+            <li>Working toward an implementation for fine-grained classification under taxonomy constraints.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Programming</h4>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Torchvision</span>
+            <span class="tag">C/C++</span>
+            <span class="tag">Bash</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks</h4>
+          <div class="tag-list">
+            <span class="tag">OpenCLIP</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">PyTorch Lightning</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>HPC & Infrastructure</h4>
+          <div class="tag-list">
+            <span class="tag">Slurm</span>
+            <span class="tag">MPI</span>
+            <span class="tag">CUDA 12.6</span>
+            <span class="tag">Nsight Systems</span>
+            <span class="tag">Conda</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Data Tools</h4>
+          <div class="tag-list">
+            <span class="tag">Spark</span>
+            <span class="tag">Parquet</span>
+            <span class="tag">COCO / JSONL pipelines</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="tag-list">
+            <span class="tag">English (fluent)</span>
+            <span class="tag">Chinese (native)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2 class="section-title">Teaching & Service</h2>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3>Grader — ECE 6001: Probability and Random Variables</h3>
+              <p class="institution">The Ohio State University</p>
+            </div>
+            <span class="date-badge">2025</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Grading and student support for graduate-level coursework.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Zhiyuan Tao · Columbus, OH</p>
+  </footer>
+
+</body>
+</html>
