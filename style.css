@@ -303,10 +303,32 @@ body {
   font-style: italic;
 }
 
+.pub-authors {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.pub-authors strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .pub-desc {
   font-size: 14px;
   color: var(--text-muted);
   margin-bottom: 12px;
+}
+
+.pub-figure {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 0 0 14px;
 }
 
 .pub-link {
