@@ -4,141 +4,205 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zhiyuan Tao</title>
+  <meta name="description" content="Zhiyuan Tao — researcher in multimodal representation learning and vision-language models. M.S. in ECE from The Ohio State University; research assistant at William &amp; Mary." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Zhiyuan Tao" />
+  <meta property="og:description" content="Researcher in multimodal representation learning and vision-language models. M.S. in ECE from The Ohio State University; research assistant at William &amp; Mary." />
+  <meta name="theme-color" content="#fafafc" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f1015" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234f46e5'/%3E%3Cstop offset='1' stop-color='%23a855f7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='white'%3EZT%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <nav class="navbar">
     <div class="nav-inner">
-      <span class="nav-name">Zhiyuan Tao</span>
+      <a href="#about" class="nav-name">Zhiyuan Tao</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
     </div>
   </nav>
 
-  <header class="hero">
+  <header class="hero" id="about">
     <div class="hero-inner">
       <div class="hero-text">
         <h1>Zhiyuan Tao</h1>
-        <p class="hero-title">M.S. Student in ECE · The Ohio State University</p>
+        <p class="hero-title">Research Assistant, William &amp; Mary · M.S. in ECE, The Ohio State University</p>
         <p class="hero-desc">
-          Researching hierarchical hyperbolic vision-language models.
-          Interested in large-scale dataset pipelines, distributed training, and fine-grained visual understanding.
+          I work on multimodal representation learning and vision-language models, with interests in
+          compositional and structured reasoning, interpretable representations, and controlled evaluation
+          of foundation models. I received my M.S. from The Ohio State University, advised by
+          Prof. Wei-Lun Chao, and am currently a research assistant at William &amp; Mary working with
+          Prof. Qingyun Wang.
         </p>
         <div class="hero-links">
-          <a href="mailto:taozhiyuanair@gmail.com" class="btn">Email</a>
-          <a href="https://scholar.google.com/citations?user=oNvNo3oAAAAJ" class="btn btn-outline" target="_blank">Google Scholar</a>
+          <a href="mailto:taozhiyuanair@gmail.com" class="btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            Email
+          </a>
+          <a href="https://scholar.google.com/citations?user=oNvNo3oAAAAJ" class="btn btn-outline" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg>
+            Google Scholar
+          </a>
+          <a href="https://github.com/ZhiyuanTao623" class="btn btn-outline" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="CV.pdf" class="btn btn-outline" target="_blank">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>
+            CV
+          </a>
         </div>
-        <p class="hero-contact">Columbus, OH &nbsp;|&nbsp; taozhiyuanair@gmail.com</p>
+        <p class="hero-contact">Columbus, OH &nbsp;·&nbsp; taozhiyuanair@gmail.com</p>
       </div>
-      <div class="hero-avatar">ZT</div>
+      <img src="avatar.jpg" alt="Portrait of Zhiyuan Tao" class="hero-avatar" width="512" height="512" />
     </div>
   </header>
 
   <main class="container">
 
-    <section id="education">
-      <h2 class="section-title">Education</h2>
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
       <div class="card-list">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <h3>M.S. in Electrical and Computer Engineering</h3>
-              <p class="institution">The Ohio State University, Columbus, OH</p>
-            </div>
-            <span class="date-badge">Sep 2024 – Present</span>
+        <article class="card pub-card">
+          <div class="pub-tags">
+            <span class="pub-venue">CVPR 2026 Workshop on Fine-Grained Visual Categorization (FGVC13)</span>
+            <span class="pub-venue pub-highlight">Oral Presentation</span>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <h3>B.S. in Information Security</h3>
-              <p class="institution">Nanjing University of Posts and Telecommunications, China</p>
-            </div>
-            <span class="date-badge">Sep 2020 – Jun 2024</span>
-          </div>
-        </div>
+          <h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.21838" target="_blank" rel="noopener">Beyond Flat Labels: Level-Restricted Contrastive Learning for Hierarchical Fine-Grained Vision Classification</a></h3>
+          <p class="pub-authors"><strong>Zhiyuan Tao</strong>, Srikumar Sastry, Matthew J. Thompson, Elizabeth G. Campolongo, Net Zhang, Ziheng Zhang, Hilmar Lapp, Yu Su, Tanya Berger-Wolf, Nathan Jacobs, Wei-Lun Chao, Jianyang Gu</p>
+          <p class="pub-desc">Restricting contrastive comparisons to categories at the same taxonomic level to improve hierarchical consistency and accuracy in fine-grained vision-language classification.</p>
+          <a href="level-restricted-loss.png" target="_blank" title="Open full-size figure"><img src="level-restricted-loss.png" alt="Level-Restricted Loss overview" class="pub-figure" width="1266" height="557" /></a>
+          <a href="https://arxiv.org/pdf/2606.21838" class="pub-link" target="_blank" rel="noopener">View on arXiv →</a>
+        </article>
       </div>
     </section>
 
     <section id="research">
       <h2 class="section-title">Research Experience</h2>
-      <div class="card-list">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <h3>Graduate Research Assistant</h3>
-              <p class="institution">The Ohio State University</p>
-            </div>
-            <span class="date-badge">May 2025 – May 2026</span>
+      <div class="entry-list">
+        <div class="entry">
+          <div class="entry-header">
+            <h3>Graduate Researcher, The Ohio State University</h3>
+            <span class="date-badge">2024 – 2026</span>
           </div>
+          <p class="institution">Advisor: Prof. Wei-Lun Chao · Collaborator: Dr. Jianyang Gu</p>
           <ul class="bullet-list">
-            <li>Conducting research on a hierarchical hyperbolic vision-language model.</li>
-            <li>Built large-scale dataset pipelines on OSC/PSC clusters for iNat21 and LILA datasets (200M+ samples).</li>
-            <li>Deployed distributed training with PyTorch DDP, Slurm, and H100 GPUs; profiling using Nsight Systems.</li>
+            <li>Investigated whether hierarchical consistency in vision-language representations requires explicit parent–child constraints or can emerge from image–text alignment alone.</li>
+            <li>Conceived and implemented <strong>level-restricted contrastive learning</strong>, which prevents valid labels at different semantic levels from acting as false negatives and balances optimization across granularities.</li>
+            <li>Built on BioCLIP and trained on TreeOfLife-10M; improved hierarchical consistency in Euclidean and hyperbolic spaces, with a <strong>30.47% relative gain</strong> in zero-shot average accuracy across levels over the prior SOTA (RCME) on iNat21.</li>
+            <li>Led method development, implementation, experimental analysis, and contribution design; presented the work orally at the CVPR 2026 FGVC Workshop.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <h3>Independent Research</h3>
+            <span class="date-badge">2026</span>
+          </div>
+          <h4 class="entry-sub">Multi-Granularity Vision–Language Learning</h4>
+          <ul class="bullet-list">
+            <li>Independently conceived and led, from formulation to writing, a controlled study of whether multi-granularity vision–language learning benefits from true semantic-level identities or from the candidate-pool structure induced by level restriction.</li>
+            <li>Constructed <strong>VG-MG50K</strong>, a 50,000-image Visual Genome benchmark with four strictly nested captions per image, controlling semantic-level identity, candidate-pool balance, and training objective while preserving image–caption membership.</li>
+            <li>Showed across ten paired seeds that balanced random partitions match true semantic levels in retrieval (equivalent within ±0.30 mean recall) once candidate-pool structure is matched, locating the restricted-softmax gain in balanced per-image pool construction.</li>
+            <li>Developed a <strong>membership-only sigmoid objective</strong> that uses only image–caption membership (no level labels), reaching the strongest controlled result: 30.41 vs. 30.00 mean recall for level-restricted softmax.</li>
+          </ul>
+          <h4 class="entry-sub">Compositional Visual Execution</h4>
+          <ul class="bullet-list">
+            <li>Investigated why learned visual operations that are individually executable fail when composed into unseen programs, using controlled grid-to-grid visual reasoning tasks.</li>
+            <li>Developed an <em>input-aligned</em> execution strategy that returns each intermediate grid through the visual interface consumed by the next operation, instead of keeping task state implicit in latent activations.</li>
+            <li>Under parameter-matched training, raised exact accuracy on held-out primitive pairs from <strong>43.5% to 88.2%</strong>, persisting on longer programs.</li>
+            <li>Isolated the interface effect in a frozen executor: changing only the state handoff raised held-out-pair accuracy from <strong>29.2% to 87.6%</strong>.</li>
+            <li>Showed with probes and boundary controls that latent states encode the intermediate grid yet fail to support composition; extended results to grounded-object operations and demonstration-recovered programs.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <h3>Research Assistant, William &amp; Mary</h3>
+            <span class="date-badge">2026 – Present</span>
+          </div>
+          <p class="institution">Advisor: Prof. Qingyun Wang</p>
+          <ul class="bullet-list">
+            <li>Formulated a controlled test of whether increasing the difficulty of an independent benign task makes vision-language models less safe under a fixed harmful request, via a benign-Task1 / harmful-Task2 framework.</li>
+            <li>Built the full inference and evaluation pipeline across three VLMs, two safety benchmarks, and multiple benign task families.</li>
+            <li>Found that benign-task performance can drop by up to <strong>82.5 points</strong> while attack success changes by at most <strong>2.8 points</strong>; matched protocol controls revealed that response formatting alone shifts ASR by <strong>14–15 points</strong> on VLJailbreakBench.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section id="publications">
-      <h2 class="section-title">Publications</h2>
-      <div class="card-list">
-        <div class="card pub-card">
-          <div class="pub-venue">CVPR 2026 FGVC Workshop</div>
-          <h3 class="pub-title">"Beyond Flat Labels: Level-Restricted Contrastive Learning for Hierarchical Fine-Grained Vision Classification."</h3>
-          <p class="pub-authors"><strong>Zhiyuan Tao</strong>, Srikumar Sastry, Matthew J. Thompson, Elizabeth G. Campolongo, Net Zhang, Ziheng Zhang, Hilmar Lapp, Yu Su, Tanya Berger-Wolf, Nathan Jacobs, Wei-Lun Chao, Jianyang Gu.</p>
-          <p class="pub-desc">Restricting contrastive comparisons to categories at the same taxonomic level to improve hierarchical consistency and accuracy in fine-grained vision-language classification.</p>
-          <img src="level-restricted-loss.png" alt="Level-Restricted Loss overview" class="pub-figure" />
-          <a href="https://arxiv.org/pdf/2606.21838" class="pub-link" target="_blank">View on arXiv →</a>
+    <section id="additional">
+      <h2 class="section-title">Additional Research &amp; Teaching</h2>
+      <div class="entry-list">
+        <div class="entry">
+          <div class="entry-header">
+            <h3>Contributor, TreeOfLife-200M Dataset</h3>
+          </div>
+          <p class="entry-desc">Contributed to data-processing infrastructure for the TreeOfLife-200M biodiversity dataset; acknowledged by the dataset authors.</p>
+          <a href="https://imageomics.github.io/bioclip-2/" class="pub-link" target="_blank" rel="noopener">BioCLIP 2 project page →</a>
         </div>
-        <div class="card pub-card">
-          <div class="pub-venue">NeurIPS 2025 Workshop on Imageomics</div>
-          <h3 class="pub-title">"BeetleFlow: An Integrative Deep Learning Pipeline for Beetle Image Processing."</h3>
-          <p class="pub-desc">Contributed to data cleaning, curation, and experimental insights for large-scale beetle image datasets.</p>
-          <a href="https://arxiv.org/pdf/2511.00255" class="pub-link" target="_blank">View on arXiv →</a>
+        <div class="entry">
+          <div class="entry-header">
+            <h3>Teaching Assistant, ECE 6001</h3>
+          </div>
+          <p class="institution">The Ohio State University</p>
+          <p class="entry-desc">Assisted with course instruction and student support.</p>
         </div>
       </div>
     </section>
 
-    <section id="projects">
-      <h2 class="section-title">Selected Projects</h2>
-      <div class="card-list">
-        <div class="card">
-          <div class="card-header">
-            <h3>BioCLIP2</h3>
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="entry-list">
+        <div class="entry">
+          <div class="entry-header">
+            <h3>M.S. in Electrical and Computer Engineering (Thesis)</h3>
+            <span class="date-badge">Aug 2024 – May 2026</span>
           </div>
-          <ul class="bullet-list">
-            <li>Contributing to data cleaning (200M data).</li>
-            <li><a href="https://imageomics.github.io/bioclip-2/" class="pub-link" target="_blank">Project page →</a></li>
-          </ul>
+          <p class="institution">The Ohio State University, Columbus, OH · Advisor: Wei-Lun Chao</p>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <h3>Hierarchical Entailment Loss for CLIP</h3>
-            <span class="date-badge">2025</span>
+        <div class="entry">
+          <div class="entry-header">
+            <h3>B.S. in Information Security</h3>
+            <span class="date-badge">Sep 2020 – Jun 2024</span>
           </div>
-          <ul class="bullet-list">
-            <li>Investigating entailment-aware losses for hierarchical vision-language learning.</li>
-            <li>Working toward an implementation for fine-grained classification under taxonomy constraints.</li>
-          </ul>
+          <p class="institution">Nanjing University of Posts and Telecommunications, Nanjing, China</p>
         </div>
       </div>
     </section>
 
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <dl class="skill-list">
+        <div class="skill-row">
+          <dt>Programming</dt>
+          <dd class="tag-list"><span class="tag">Python</span><span class="tag">C/C++</span><span class="tag">Bash</span></dd>
+        </div>
+        <div class="skill-row">
+          <dt>Machine Learning</dt>
+          <dd class="tag-list"><span class="tag">PyTorch</span><span class="tag">Hugging Face Transformers</span><span class="tag">OpenCLIP</span><span class="tag">NumPy</span></dd>
+        </div>
+        <div class="skill-row">
+          <dt>Research &amp; Systems</dt>
+          <dd class="tag-list"><span class="tag">Linux</span><span class="tag">Slurm</span><span class="tag">Git</span><span class="tag">LaTeX</span><span class="tag">Matplotlib</span></dd>
+        </div>
+      </dl>
+    </section>
 
   </main>
 
   <footer class="footer">
-    <p>© 2025 Zhiyuan Tao · Columbus, OH</p>
-    <div style="margin-top: 16px; display: flex; justify-content: center;">
+    <p>© 2026 Zhiyuan Tao · Columbus, OH</p>
+    <div class="visitor-map">
       <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Uue0f0MW3geAW3LRtQV68S5Rgk2cGVZYAO1TcUwsqX0&cl=ffffff&w=200"></script>
     </div>
   </footer>
